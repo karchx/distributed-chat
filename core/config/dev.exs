@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :core, Core.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "user",
+  password: "password",
   hostname: "localhost",
   database: "core_dev",
   stacktrace: true,
